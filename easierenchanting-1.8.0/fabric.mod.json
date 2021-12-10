@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "easierenchanting",
+  "version": "1.8.0",
+
+  "name": "Easier Enchanting",
+  "description": "A mod that allow one to reroll enchantments",
+  "authors": [
+    "sidit77"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/easier-enchanting",
+    "sources": "https://github.com/sidit77/EasierEnchanting"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/easierenchanting/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "easierenchanting.EasierEnchanting"
+    ]
+  },
+  "mixins": [
+    "easierenchanting.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.8",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=16"
+  }
+}

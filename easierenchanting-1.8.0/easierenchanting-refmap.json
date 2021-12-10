@@ -1,0 +1,32 @@
+{
+  "mappings": {
+    "easierenchanting/mixin/EnchantmentScreenMixin": {
+      "mouseClicked": "Lnet/minecraft/class_486;method_25402(DDI)Z",
+      "Lnet/minecraft/client/gui/screen/ingame/EnchantmentScreen;renderTooltip(Lnet/minecraft/client/util/math/MatrixStack;Ljava/util/List;II)V": "Lnet/minecraft/class_486;method_30901(Lnet/minecraft/class_4587;Ljava/util/List;II)V",
+      "render": "Lnet/minecraft/class_486;method_25394(Lnet/minecraft/class_4587;IIF)V"
+    },
+    "easierenchanting/mixin/PlayerEntityMixin": {
+      "getEnchantmentTableSeed": "Lnet/minecraft/class_1657;method_7278()I"
+    },
+    "easierenchanting/mixin/EnchantmentScreenHandlerMixin": {
+      "\u003cinit\u003e(ILnet/minecraft/entity/player/PlayerInventory;Lnet/minecraft/screen/ScreenHandlerContext;)V": "Lnet/minecraft/class_1718;\u003cinit\u003e(ILnet/minecraft/class_1661;Lnet/minecraft/class_3914;)V",
+      "onButtonClick": "Lnet/minecraft/class_1718;method_7604(Lnet/minecraft/class_1657;I)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "easierenchanting/mixin/EnchantmentScreenMixin": {
+        "mouseClicked": "Lnet/minecraft/class_486;method_25402(DDI)Z",
+        "Lnet/minecraft/client/gui/screen/ingame/EnchantmentScreen;renderTooltip(Lnet/minecraft/client/util/math/MatrixStack;Ljava/util/List;II)V": "Lnet/minecraft/class_486;method_30901(Lnet/minecraft/class_4587;Ljava/util/List;II)V",
+        "render": "Lnet/minecraft/class_486;method_25394(Lnet/minecraft/class_4587;IIF)V"
+      },
+      "easierenchanting/mixin/PlayerEntityMixin": {
+        "getEnchantmentTableSeed": "Lnet/minecraft/class_1657;method_7278()I"
+      },
+      "easierenchanting/mixin/EnchantmentScreenHandlerMixin": {
+        "\u003cinit\u003e(ILnet/minecraft/entity/player/PlayerInventory;Lnet/minecraft/screen/ScreenHandlerContext;)V": "Lnet/minecraft/class_1718;\u003cinit\u003e(ILnet/minecraft/class_1661;Lnet/minecraft/class_3914;)V",
+        "onButtonClick": "Lnet/minecraft/class_1718;method_7604(Lnet/minecraft/class_1657;I)Z"
+      }
+    }
+  }
+}
